@@ -1,0 +1,17 @@
+app:
+  name: "backend-test"
+  version: "1.0.0"
+
+http:
+  port: "8080"
+
+logger:
+  log_level: "debug"
+  rollbar_env: "backend-test"
+
+mysql:
+  host: "localhost"
+  port: "3306"
+  username: "user"
+  password: "admin"
+  dbname: "backend_test"
